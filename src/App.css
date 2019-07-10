@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+body {
+  font-family: 'Noto Sans', sans-serif;
+} */
+.App {
+  margin: 0;
+  color: #4F4F4F;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: normal;
+}
+.linkRoute, .linkRoute:hover, .linkRoute:focus, .linkRoute:visited, .linkRoute:link, .linkRoute:active  {
+  text-decoration: none !important;
+}
+img {
+  cursor: pointer;
+}
+.highRiskColor {
+  color: #EB5757;
+}
+.moderateRiskColor {
+  color: #F2994A;
+}
+.lowRiskColor {
+  color: #27AE60;
+}
+.noRiskColor {
+  color: #E0E0E0;
+}
+.text-muted-gray3 {
+  color: #828282;
+}
+.font-weight-bold-important {
+  font-weight: bold !important;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+.font-size-20px {
+  font-size: 20px;
+}
+.font-size-18px {
+  font-size: 18px;
+}
+.font-size-16px {
+  font-size: 16px;
+}
+.font-size-14px {
+  font-size: 14px;
+}
+.font-size-12px {
+  font-size: 12px;
+}
+/* @media screen and (min-width: 500px) {
+  .App {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+} */

@@ -1,0 +1,35 @@
+.flexDisplay {
+  display: flex;
+}
+.flexDisplayCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.primaryFontColor {
+  color: #226caf !important;
+}
+.boldFont {
+  font-weight: bold;
+}
+.padding-0 {
+  padding: 0 !important;
+}
+.textAlignCenter {
+  text-align: center;
+}
+/* Basic Colors */
+.blue-background {
+  background-color: #2F80ED;
+}
+.white-color {
+  color: #FFFFFF;
+}
+.white-color-important {
+  color: #FFFFFF !important;
+}
+.text-overflow-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

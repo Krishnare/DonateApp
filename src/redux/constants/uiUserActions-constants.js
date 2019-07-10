@@ -1,0 +1,3 @@
+export const SET_LANGITUDE_LATITUDE = "SET_LANGITUDE_LATITUDE";
+export const SET_CROP = "SET_CROP";
+export const SET_SOWINGDAY = "SET_SOWINGDAY";

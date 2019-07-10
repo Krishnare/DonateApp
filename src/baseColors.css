@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Max-SemiBold';
+  src: url('./assets/fonts/Max-SemiBold.otf'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/Max-SemiBold.otf') format('opentype');
+}
+/* NotoSans-SemiBold.ttf, NotoSans-Medium.ttf are dowloaded from https://www.fontsquirrel.com/fonts/noto-sans */
+@font-face {
+  font-family: 'NotoSans-SemiBold';
+  src: url('./assets/fonts/NotoSans-SemiBold.ttf'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/NotoSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NotoSans-Medium';
+  src: url('./assets/fonts/NotoSans-Medium.ttf'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/NotoSans-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('./assets/fonts/Roboto-Regular.ttf'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('./assets/fonts/Roboto-Medium.ttf'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/Roboto-Medium.ttf') format('truetype');
+}
+.notosans-semibold {
+  font-family: "NotoSans-SemiBold";
+}
+.notosans-medium {
+  font-family: "NotoSans-Medium";
+}
+.btn {
+  font-size: 16px;
+  padding: 10px 16px;
+}
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger {
+  font-family: "NotoSans-SemiBold";
+}
+.btn-secondary {
+  font-family: "NotoSans-Medium"
+}
+.gray-one-color {
+  color: #333333;
+}
+.gray-two-color {
+  color: #4F4F4F;
+}
+.blue-one-color {
+  color: #2F80ED;
+}
+.not-accurate-color {
+  color: #F2C94C;
+}
+/* WELCOME SCREEN */
+.welcome-text {
+  font-size: 28px;
+  letter-spacing: 0.0018px;
+}
+h4 {
+  font-size: 24px;
+  color: #333333;
+}
+h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #333333;
+}
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #4F4F4F;
+}
+.small-font {
+  font-size: 14px;
+}
