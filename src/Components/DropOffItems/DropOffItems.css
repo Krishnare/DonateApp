@@ -1,0 +1,114 @@
+html,
+body,
+.dropOffItemsContainer {
+  background-color: #f6f4f4;
+}
+.dropOffItemsContainer h4 {
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  text-align: center;
+}
+.dropOffItemsContainer {
+  margin: 15px;
+}
+.checkBoxContainer {
+  margin: 26px 0 0 0;
+  padding: 0 0 0 4%;
+}
+.checkBoxContainer li {
+  margin: 9px 0;
+  list-style-type: none;
+  display: flex;
+}
+.checkBoxContainer p {
+  margin: -30px 0 0 40px;
+  font-size: 14px;
+}
+
+.checkBoxContainer label {
+  justify-content: center;
+  flex-direction: column;
+}
+.futuroIcon {
+  padding: 48px 0 88px 0;
+  text-align: center;
+}
+.styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+.styled-checkbox + label:before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 24px;
+  height: 24px;
+  background: white;
+  border-radius: 3px;
+  -webkit-box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.2);
+}
+/* .styled-checkbox:hover + label:before {
+  background: #f35429;
+} */
+.styled-checkbox:focus + label:before {
+  -webkit-box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.2);
+}
+/* .styled-checkbox:checked + label:before {
+  background: #f35429;
+} */
+.styled-checkbox:disabled + label {
+  color: #b8b8b8;
+  cursor: auto;
+}
+.styled-checkbox:disabled + label:before {
+  box-shadow: none;
+  background: #ddd;
+}
+.styled-checkbox:checked + label::before {
+  -webkit-box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 4px 22px 1px rgba(0, 0, 0, 0.2);
+}
+.styled-checkbox:checked + label:after {
+  content: "\2713\0020";
+  position: absolute;
+  top: 0.2em;
+  left: 0.22em;
+  font-size: 1.3em;
+  line-height: 0.8;
+  color: #008ccf;
+  transition: all 0.2s;
+  font-family: "Lucida Sans Unicode", "Arial Unicode MS", Arial;
+}
+.screenBtn {
+  margin: 30px 0 0 0;
+}
+.continueBtn {
+  background-color: #008ccf;
+  border-radius: 7px;
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  border: 0;
+}
+.goBackBtn {
+  color: #008ccf;
+  margin: 13px 0;
+  text-align: center;
+  width: 100%;
+  border: 0;
+  background: transparent;
+}

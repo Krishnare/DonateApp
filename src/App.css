@@ -8,6 +8,7 @@ body {
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: normal;
+  background-color: transparent;
 }
 .linkRoute, .linkRoute:hover, .linkRoute:focus, .linkRoute:visited, .linkRoute:link, .linkRoute:active  {
   text-decoration: none !important;

@@ -1,0 +1,104 @@
+.donationContainer {
+  margin: 53px 21px 0px 21px;
+}
+.cabinetSetsContainer h1,
+.apliancesContainer h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.cabinetSetsContainer h4,
+.apliancesContainer h4 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.apliancesContainer{
+  margin: 43px 0 0 0;
+}
+.photosCount {
+  margin: 20px 0 0 0;
+}
+.photosCountNumbers {
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+}
+.photosCountNumbers li {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #e1dddd;
+  border-radius: 56px;
+  background-color: #fff;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+  margin: 0 0 0 10px;
+}
+.photosCountNumbers li:first-child {
+  margin: 0;
+}
+.photosCountNumbers li:last-child {
+  width: auto;
+  height: auto;
+  border: none;
+  border-radius: unset;
+  background-color: transparent;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+}
+.photosCountNumbers li input {
+  border-radius: 10px;
+  border: 1px solid #e1dddd;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+}
+.photosCountNumbers li span {
+  content: "";
+  position: relative;
+  top: 11px;
+  display: inline-block;
+  font-size: 14px;
+}
+.photosCountNumbers li:hover {
+  background-color: #008ccf;
+  color: #fff;
+}
+.photosCountNumbers li:last-child:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.photosCountNumbers li.selected {
+  background-color: #008ccf;
+  color: #fff;
+}
+.photosContainer {
+  display: flex;
+}
+.photosContainer .photos {
+  width: 49%;
+  height: 170px;
+  border-radius: 10px;
+  background-color: #eee;
+  flex-direction: column;
+  margin: 19px 0 0 15px;
+  position: relative;
+}
+.photosContainer .photos:first-child {
+  margin: 19px 0 0 0;
+}
+.close {
+  width: 50px;
+  position: absolute;
+  right: -12px;
+  top: -12px;
+}
+.close img {
+  width: 100%;
+}
+.uploadPhoto {
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  top: 39%;
+}

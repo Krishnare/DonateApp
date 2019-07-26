@@ -1,0 +1,27 @@
+.donationType{
+    width:100%;
+}
+.donationType img{
+    width:100%;
+}
+.bodyCopyContainer{
+    margin: 10px;
+}
+.bodyCopyContainer h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.donationTypeimg{
+    width:100%;
+}
+.donationTypeimg img{
+    position: relative;
+    width: 100%;
+}
+ul.donationType p{
+    margin: -29px 0 0 40px;
+}
+ul.donationType a{
+    color:#008ccf;
+}

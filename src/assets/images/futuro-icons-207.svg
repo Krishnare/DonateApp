@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="184px" height="201px" viewBox="0 0 184 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>futuro-icons-207</title>
+    <desc>Created with Sketch.</desc>
+    <g id="v3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-discliamer-Dropoff" transform="translate(-93.000000, -88.000000)">
+            <g id="futuro-icons-207" transform="translate(93.000000, 88.000000)">
+                <circle id="Oval" fill="#EDEBEB" cx="92" cy="91.5" r="91.5"></circle>
+                <polyline id="Path" fill="#FFFFFF" fill-rule="nonzero" points="106.6 198 29 198 29 65.7236964 38.7 56 48.4 65.7236964 58.1 56 67.8 65.7236964 77.5 56 87.2 65.7236964 96.9 56 106.6 65.7236964 116.3 56 126 65.7236964 126 178.552607"></polyline>
+                <polygon id="Path" fill="#ACF0F2" fill-rule="nonzero" points="107 197 107 179 126 179"></polygon>
+                <polygon id="Path" stroke="#4D5152" stroke-width="2" points="126 177.546205 106.6 198 29 198 29 65.7236964 38.7 56 48.4 65.7236964 58.1 56 67.8 65.7236964 77.5 56 87.2 65.7236964 96.9 56 106.6 65.7236964 116.3 56 126 65.7236964"></polygon>
+                <polyline id="Path" stroke="#4D5152" stroke-width="2" points="107 198 107 179 126 179"></polyline>
+                <g id="Group" transform="translate(39.000000, 85.000000)">
+                    <circle id="Oval" fill="#D0D3D4" fill-rule="nonzero" cx="9.5" cy="9.5" r="9.5"></circle>
+                    <polyline id="Path" stroke="#4D5152" stroke-width="2" points="19 2.375 9.5 11.875 4.75 7.125"></polyline>
+                </g>
+                <g id="Group" transform="translate(39.000000, 115.000000)">
+                    <circle id="Oval" fill="#D0D3D4" fill-rule="nonzero" cx="9.5" cy="9.5" r="9.5"></circle>
+                    <polyline id="Path" stroke="#4D5152" stroke-width="2" points="19 2.375 9.5 11.875 4.75 7.125"></polyline>
+                </g>
+                <g id="Group" transform="translate(39.000000, 144.000000)">
+                    <circle id="Oval" fill="#D0D3D4" fill-rule="nonzero" cx="9.5" cy="9.5" r="9.5"></circle>
+                    <polyline id="Path" stroke="#4D5152" stroke-width="2" points="19 2.375 9.5 11.875 4.75 7.125"></polyline>
+                </g>
+                <path d="M70,91 L114,91" id="Path" stroke="#4D5152" stroke-width="2"></path>
+                <path d="M70,101 L99,101" id="Path" stroke="#4D5152" stroke-width="2"></path>
+                <path d="M70,120 L114,120" id="Path" stroke="#4D5152" stroke-width="2"></path>
+                <path d="M70,130 L89,130" id="Path" stroke="#4D5152" stroke-width="2"></path>
+                <path d="M70,149 L114,149" id="Path" stroke="#4D5152" stroke-width="2"></path>
+                <path d="M70,159 L85,159" id="Path" stroke="#4D5152" stroke-width="2"></path>
+                <path d="M89,159 L104,159" id="Path" stroke="#4D5152" stroke-width="2"></path>
+                <g id="Group" transform="translate(139.000000, 57.000000)">
+                    <rect id="Rectangle" fill="#D0D3D4" fill-rule="nonzero" x="1.4" y="19.4740667" width="19.2" height="97.3333333"></rect>
+                    <polyline id="Path" fill="#FFFFFF" fill-rule="nonzero" points="20.6 116.8074 20.6 127.966667 11 137.7 1.4 127.966667 1.4 116.8074"></polyline>
+                    <path d="M1.4,116.8074 L1.4,19.4740667" id="Path" stroke="#4D5152" stroke-width="2"></path>
+                    <path d="M20.6,19.4740667 L20.6,116.8074" id="Path" stroke="#4D5152" stroke-width="2"></path>
+                    <path d="M11,138.7074 L11,143.574067" id="Path" stroke="#4D5152" stroke-width="2"></path>
+                    <path d="M11,19.4740667 L11,116.8074" id="Path" stroke="#4D5152" stroke-width="2"></path>
+                    <polygon id="Path" stroke="#4D5152" stroke-width="2" points="1.4 116.8074 20.6 116.8074 20.6 127.966667 11 137.7 1.4 127.966667"></polygon>
+                    <path d="M1.4,6.3 C1.4,2.2704 4.6256,0.0074 8.6,0.0074 L13.4,0.0074 C17.3744,0.0074 20.6,2.2704 20.6,6.3 L20.6,19.4740667 L1.4,19.4740667 L1.4,6.3 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M1.4,6.3 C1.4,2.2704 4.6256,0.0074 8.6,0.0074 L13.4,0.0074 C17.3744,0.0074 20.6,2.2704 20.6,6.3 L20.6,19.4740667 L1.4,19.4740667 L1.4,6.3 Z" id="Path" stroke="#4D5152" stroke-width="2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

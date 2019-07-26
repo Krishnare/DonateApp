@@ -1,0 +1,23 @@
+{
+    "donation": [
+        {
+            "description": "Restore cannot accept donations that are not working, have missing parts, or are damaged."
+        },
+        {
+            "description": " Restore cannot accept donations that are not working, have missing parts, or are damaged."
+        },
+        {
+            "description": " Restore cannot accept donations that are not working, have missing parts, or are damaged."
+        }
+    ],
+    "donateTyps": [
+        {
+            "description": "Kitchen Cabinets",
+            "criteria": "See Criteria"
+        },
+        {
+            "description": "Kitchen Apliances",
+            "criteria": "See Criteria"
+        }
+    ]
+}

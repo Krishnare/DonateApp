@@ -1,18 +1,21 @@
-import { compose, createStore, applyMiddleware } from "redux";
-import thunk from "redux-thunk";
-import rootReducer from "./redux/reducers";
-import { createLogger } from 'redux-logger';
+import { createStore, applyMiddleware, combineReducers, compose } from "redux";
+import uiUserActionsReducer from "./redux/reducers/uiUserActions-reducer";
+import createSagaMiddleware from "redux-saga";
+import mySaga from "./redux/saga/saga";
+import { reducer as formReducer } from 'redux-form';
 
-const initialState = {};
-const middleware = [thunk];
-if (process.env.NODE_ENV === 'development') {
-  const logger = createLogger();
-  middleware.push(logger);
-}
-
+const allReducers = combineReducers({
+  uiUserActionsReducer,
+  formReducer,
+});
+const sagaMiddleware = createSagaMiddleware();
 const store = createStore(
-  rootReducer,
-  initialState,
-  compose(applyMiddleware(...middleware))
+  allReducers,
+  compose(
+    applyMiddleware(sagaMiddleware),
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  )
 );
+sagaMiddleware.run(mySaga);
+
 export default store;
