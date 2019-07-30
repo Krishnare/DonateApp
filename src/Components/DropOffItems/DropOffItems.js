@@ -16,7 +16,7 @@ class DropOffItems extends Component {
   constructor(){
     super();
     this.state={
-      buttonValue:"Continue"
+      buttonVal:"Continue"
     }
   }
   render() {
@@ -36,7 +36,7 @@ class DropOffItems extends Component {
         </div>
         <div className="screenBtn">
           <Link className="linkRoute" to="/donationType">
-            <Continue buttonValue={buttonValue} />
+            <Continue buttonVal={this.state.buttonVal} />
           </Link>
           <Link className="linkRoute" to="/">
             <Goback />

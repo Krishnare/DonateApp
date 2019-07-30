@@ -30,12 +30,31 @@ const validate = values => {
   } else if (values.phoneNumber.length < 2) {
     errors.phoneNumber = "Minimum be 2 characters or more";
   }
+  if (!values.streetAddress) {
+    errors.streetAddress = "Required";
+  } else if (values.streetAddress.length < 2) {
+    errors.streetAddress = "Minimum be 2 characters or more";
+  }
+  errors.zipCode = "Required";
+  if (!values.zipCode) {
+    errors.zipCode = "Required";
+  } else if (values.zipCode.length < 2) {
+    errors.zipCode = "Minimum be 2 characters or more";
+  }
+  if (!values.city) {
+    errors.city = "Required";
+  } else if (values.city.length < 2) {
+    errors.city = "Minimum be 2 characters or more";
+  }
   return errors;
 };
 const onSubmit = value => {
   alert(value);
 };
 const PersonContactDetails = ({ handleSubmit, submitting }, props) => {
+  let buttonValues = {
+    buttonValue: "Confirm"
+  };
   //   constructor() {
   //     super();
   //     this.state = {
@@ -139,7 +158,7 @@ const PersonContactDetails = ({ handleSubmit, submitting }, props) => {
             <span className="error">{errors.email}</span>
           )} */}
         <Field
-          name="number"
+          name="phoneNumber"
           component={RenderField}
           type="number"
           // handleChange={this.handleChange}
@@ -155,22 +174,21 @@ const PersonContactDetails = ({ handleSubmit, submitting }, props) => {
         <InfoText />
         <div className="screenBtn">
           <Link className="linkRoute" to="/ConfirmInformation">
-            <Continue buttonVal="Confirm" />
+            <Continue buttonVal={buttonValues.buttonValue} />
           </Link>
-          <Link className="linkRoute" to="/CabinetSets">
+          <Link className="linkRoute" to="/SelectDropOffLocation">
             <Goback />
           </Link>
         </div>
       </form>
     </div>
   );
-
 };
 const mapStateToProps = state => {
-    return {
-        formReducer: state.contact,
-      }
-  }
+  return {
+    formReducer: state.contact
+  };
+};
 export default reduxForm({
   form: "contact",
   onSubmit,

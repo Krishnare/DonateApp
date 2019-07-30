@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-const Goback = () => {
-  return <button className="goBackBtn">Go Back</button>;
+const Goback = (props) => {
+  const buttonValue = props.buttonVal !== undefined ? props.buttonVal : "Go Back";
+
+  return <button className="goBackBtn">{buttonValue}</button>;
 };
 export default Goback;

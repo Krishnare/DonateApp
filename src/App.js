@@ -17,6 +17,8 @@ import DonationType from "./Components/DonationType/DonationType";
 import CabinetSets from "./Components/UploadImages/CabinetSets";
 import ContactDetails from './Components/ContactInformationForm/ContactDetails';
 import ConfirmInformation from './Components/ConfirmInformation/ConfirmInformation';
+import ThankYouComponent from './Components/ThankYouPage/ThankYou';
+import SelectDropOffLocation from './Components/DropOffLocations/SelectDropOffLocation'
 
 class App extends Component {
   render() {
@@ -30,6 +32,8 @@ class App extends Component {
               <AuthorisedRoutes path="/CabinetSets" component={CabinetSets} />
               <AuthorisedRoutes path="/ContactDetails" component={ContactDetails} />
               <AuthorisedRoutes path="/ConfirmInformation" component={ConfirmInformation} />
+              <AuthorisedRoutes path="/ThankYouComponent" component={ThankYouComponent} />
+              <AuthorisedRoutes path="/SelectDropOffLocation" component={SelectDropOffLocation} />
               
               <AuthorisedRoutes path="/" exact component={Welcome} />
             </Switch>

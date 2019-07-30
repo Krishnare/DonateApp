@@ -11,7 +11,7 @@ class CabinetSets extends Component {
   constructor(){
     super()
     this.state={
-      buttonValue:"Continue"
+      buttonVal:"Continue"
     }
   }
   render() {
@@ -30,8 +30,8 @@ class CabinetSets extends Component {
         </div>
         <Appliances />
         <div className="screenBtn">
-          <Link className="linkRoute" to="/ContactDetails">
-            <Continue buttonValue={buttonValue} />
+          <Link className="linkRoute" to="/SelectDropOffLocation">
+            <Continue buttonVal={this.state.buttonVal} />
           </Link>
           <Link className="linkRoute" to="/donationType">
             <Goback />

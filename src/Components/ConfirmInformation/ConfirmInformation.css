@@ -1,0 +1,40 @@
+.contactIformationValues {
+  margin: 50px 20px 40px 20px;
+}
+.contactIformationValues h5 {
+  margin: 0 2px 29px 4px;
+}
+
+.catogoryImg,
+.personDetails,
+.pickupSchedule {
+  border-radius: 6px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.personDetails li {
+  list-style: none;
+  margin: 0 0 10px 0;
+}
+.personDetails ul {
+  margin: 0;
+  padding: 0;
+}
+.subHeading {
+  color: #a9a9a9;
+  font-size: 12px;
+}
+.subValues {
+  color: #000;
+}
+.thankYouContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 33% 20px 30px 20px;
+    text-align: center;
+}
+.thankYouContainer .description h1{
+    margin: 28px 0;
+    color: #008ccf;
+}

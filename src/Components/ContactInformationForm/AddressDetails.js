@@ -15,7 +15,7 @@ class AddressDetails extends Component {
             </span>
           </div>
         </div>
-        <div>
+          <div>
           <Field
             name="streetAddress"
             component={RenderField}

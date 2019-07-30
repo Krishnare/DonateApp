@@ -1,0 +1,31 @@
+.selectAddress {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+.dropOffLocationContainer {
+  margin: 40px 16px 16px 16px;
+}
+.dropOffLocationContainer h5 {
+  margin: 10px 1px 22px 0;
+  font-size: 18px;
+}
+.SelectAddresInput{
+    border: 0;
+}
+.fields form input,
+.fields form textarea {
+  border-radius: 10px;
+  border: 0 solid #e1dddd;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin: 0 0 20px 0;
+  display: inline-block;
+}
+.fields form textarea {
+  height: auto;
+}
+.openStatus {
+  margin: 20px 0;
+}
