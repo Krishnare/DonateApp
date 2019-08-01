@@ -3,12 +3,12 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 
-import { requestApiData } from "../../redux/actions/uiUserActions-actions";
-import donationTypeImg from "../../assets/images/donation-type.jpg";
-import Continue from "../Buttons/Continue";
-import Goback from "../Buttons/Goback";
-import CheckBoxes from "../DropOffItems/CheckBoxes";
-import dropOffItems from "../DropOffItems/DropOffItems"
+import { requestApiData } from "../../../redux/actions/uiUserActions-actions";
+import donationTypeImg from "../../../assets/images/donation-type.jpg";
+import Continue from "../../Buttons/Continue";
+import Goback from "../../Buttons/Goback";
+import CheckBoxes from "../../DropOff/DropOffItems/CheckBoxes";
+import dropOffItems from "../../DropOff/DropOffItems/DropOffItems"
 
 import "./DonationType.css";
 

@@ -1,14 +1,13 @@
 import React, { Component } from "react";
-import futuroIcons from "../../assets/images/futuro-icons-207.svg";
+import futuroIcons from "../../../assets/images/futuro-icons-207.svg";
 import { Link } from "react-router-dom";
-import Continue from "../Buttons/Continue";
-import Goback from "../Buttons/Goback";
+import Continue from "../../Buttons/Continue";
+import Goback from "../../Buttons/Goback";
 import CheckBoxes from "../DropOffItems/CheckBoxes";
-import welcome from '../Welcome/Welcome'
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 // import checkBoxesDescripiton from "../../data/data";
-import { requestApiData } from "../../redux/actions/uiUserActions-actions";
+import { requestApiData } from "../../../redux/actions/uiUserActions-actions";
 
 import "./DropOffItems.css";
 

@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Field, reduxForm, formValueSelector } from "redux-form";
-import ContactDetails from "../ContactInformationForm/ContactDetails";
+import ContactDetails from "../../DropOff/ContactInformationForm/ContactDetails";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import Continue from "../Buttons/Continue";
-import Goback from "../Buttons/Goback";
+import Continue from "../../Buttons/Continue";
+import Goback from "../../Buttons/Goback";
 import "./ConfirmInformation.css";
 
-import store from "../../store";
+import store from "../../../store";
 store.getState();
 class ReviewAndConfirm extends Component {
   constructor(props) {
@@ -26,7 +26,6 @@ class ReviewAndConfirm extends Component {
   render() {
     let propsValues =
       Object.keys(this.state.values).length !== 0 ? this.state.values : [];
-    console.log("propsValues", propsValues);
     return (
       <div className="contactIformationValues">
         <h5>Review and Confirm your Information</h5>

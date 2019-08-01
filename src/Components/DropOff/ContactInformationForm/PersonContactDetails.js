@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { Field, reduxForm, formValueSelector } from "redux-form";
 import { Link } from "react-router-dom";
 import AddressDetails from "./AddressDetails";
-import Continue from "../Buttons/Continue";
-import Goback from "../Buttons/Goback";
-import InfoText from "../infoText/infoText";
+import Continue from "../../Buttons/Continue";
+import Goback from "../../Buttons/Goback";
+import InfoText from "../../infoText/infoText";
 import RenderField from "./renderField";
 import { connect } from "react-redux";
 // import ReviewAndConfirm from "../ConfirmInformation/ConfirmInformation"

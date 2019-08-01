@@ -12,13 +12,14 @@ import { Provider } from "react-redux";
 import history from "./history";
 import AuthorisedRoutes from "./routes/AuthorisedRoutes";
 import Welcome from "./Components/Welcome/Welcome";
-import DropOffItems from "./Components/DropOffItems/DropOffItems";
-import DonationType from "./Components/DonationType/DonationType";
-import CabinetSets from "./Components/UploadImages/CabinetSets";
-import ContactDetails from './Components/ContactInformationForm/ContactDetails';
-import ConfirmInformation from './Components/ConfirmInformation/ConfirmInformation';
+import DropOffItems from "./Components/DropOff/DropOffItems/DropOffItems";
+import DonationType from "./Components/DropOff/DonationType/DonationType";
+import CabinetSets from "./Components/DropOff/UploadImages/CabinetSets";
+import ContactDetails from './Components/DropOff/ContactInformationForm/ContactDetails';
+import ConfirmInformation from './Components/DropOff/ConfirmInformation/ConfirmInformation';
 import ThankYouComponent from './Components/ThankYouPage/ThankYou';
-import SelectDropOffLocation from './Components/DropOffLocations/SelectDropOffLocation'
+import SelectDropOffLocation from './Components/DropOff/DropOffLocations/SelectDropOffLocation';
+import DropOffLocationConfirm from './Components/DropOff/DropOffLocations/DropOffLocationConfirm'
 
 class App extends Component {
   render() {
@@ -34,7 +35,8 @@ class App extends Component {
               <AuthorisedRoutes path="/ConfirmInformation" component={ConfirmInformation} />
               <AuthorisedRoutes path="/ThankYouComponent" component={ThankYouComponent} />
               <AuthorisedRoutes path="/SelectDropOffLocation" component={SelectDropOffLocation} />
-              
+              <AuthorisedRoutes path="/DropOffLocationConfirm" component={DropOffLocationConfirm} />
+
               <AuthorisedRoutes path="/" exact component={Welcome} />
             </Switch>
           </Router>

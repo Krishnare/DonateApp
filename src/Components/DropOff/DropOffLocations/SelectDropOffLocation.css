@@ -12,6 +12,7 @@
 }
 .SelectAddresInput{
     border: 0;
+    background: #FFF;
 }
 .fields form input,
 .fields form textarea {
@@ -28,4 +29,24 @@
 }
 .openStatus {
   margin: 20px 0;
+}
+.confirmLoactionContainer{
+  margin:40px 10px 10px
+}
+.commonBox{
+  margin: 0 0 10px 0;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+}
+.labelName{
+  display: block;
+  color:#CCC;
+  font-size: 12px;
+}
+.labelName + span{
+  font-size: 15px; 
+}
+.items{
+  height: 100px;
 }

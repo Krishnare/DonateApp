@@ -3,8 +3,8 @@ import PhotosCount from "./PhotosCount";
 import Photos from "./Photos";
 import { Link } from "react-router-dom";
 import Appliances from "./Appliances";
-import Continue from "../Buttons/Continue";
-import Goback from "../Buttons/Goback";
+import Continue from "../../Buttons/Continue";
+import Goback from "../../Buttons/Goback";
 import "./CabinetSets.css";
 
 class CabinetSets extends Component {

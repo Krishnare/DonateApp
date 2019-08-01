@@ -1,5 +1,5 @@
 import React from "react";
-import closeIcon from "../../assets/images/close-icon.png";
+import closeIcon from "../../../assets/images/close-icon.png";
 
 const Photos = () => {
   return (

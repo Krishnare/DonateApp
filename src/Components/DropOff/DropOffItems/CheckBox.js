@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ConfirmationBox from "../../ConfirmationBox";
+import ConfirmationBox from "../../../ConfirmationBox";
 import { Button } from "reactstrap";
 
 const CheckBox = ({ id, value }) => {
